@@ -30,7 +30,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 6px 10px;
-    margin: 10px 10vw;
+    margin: 40px 10vw;
     border-radius: 8px;
     position: fixed;
     z-index: 99;
@@ -74,7 +74,7 @@ header {
 }
 
 .headline {
-    color: #FFBD41;
+    color: #9e9a8d;
     margin-bottom: 30px;
     font-weight: 800;
     font-size: 30px;
@@ -90,15 +90,19 @@ header {
     background: #151515;
     height: 100vh;
     width: 100vw;
+}
+
+.story_container {
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
 }
 
 
 .section_title {
   color: #9e9a8d;
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .story_txt {
@@ -111,3 +115,82 @@ header {
     box-shadow: rgba(255, 255, 255, 0.25) 0px 25px 50px -12px;
 }
 
+/* villain section */
+
+.protectors,
+.villains {
+    background: #151515;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.villain_character {
+    margin: 50px 0;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 15px 30px -12px;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.villain {
+    height: 50%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.character_img {
+    width: 100px;
+}
+
+.character_name {
+    font-size: 30px;
+    color: #2a2927;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    width: 65vw;
+    height: 35px;
+    margin: 10px;
+    color: #2a2927;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.see_more {
+    color: #9e9a8d;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* footer */
+
+footer {
+    background: #141414;
+    height: 20vh;
+}
+
+.contact {
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
